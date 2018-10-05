@@ -4,6 +4,7 @@ public class Customer
 {
 	private String customerName, customerId;
 	private long customerPhoneNumber, customerInTime;
+	ParkingTicketGenerator ticket;
 	
 	public Customer() 
 	{
@@ -48,10 +49,20 @@ public class Customer
 		return customerInTime;
 	}
 
+	public ParkingTicketGenerator getTicket() {
+		return ticket;
+	}
+
+	public void setTicket(ParkingTicketGenerator ticket) {
+		this.ticket = ticket;
+	}
+
 	@Override
 	public String toString() {
-		return "[Name=" + customerName + ", Id=" + customerId + ", Phone="
-				+ customerPhoneNumber + ", InTime=" + customerInTime + "]";
+		return "Customer [customerName=" + customerName + ", customerId=" + customerId + ", customerPhoneNumber="
+				+ customerPhoneNumber + ", customerInTime=" + customerInTime + ", ticket=" + ticket + "]";
 	}
+
+	
 	
 }

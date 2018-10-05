@@ -4,36 +4,44 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class TestParkingAllotment {
-
+public class TestParkingAllotment 
+{
+	ParkingAllotment park = new ParkingAllotment();
+	
 	@Test
-	public void testAddCar() {
-		fail("Not yet implemented");
+	public void testAddCar() 
+	{
+		
 	}
 
 	@Test
-	public void testGetAllCarPositions() {
-		fail("Not yet implemented");
+	public void testGetAllCarPositions() 
+	{
+		
 	}
 
 	@Test
-	public void testFindPosition() {
-		fail("Not yet implemented");
+	public void testFindPosition() 
+	{
+		
 	}
 
 	@Test
-	public void testGetAllCars() {
-		fail("Not yet implemented");
+	public void testGetAllCars() 
+	{
+		
 	}
 
 	@Test
-	public void testRemoveCarById() {
-		fail("Not yet implemented");
+	public void testRemoveCarById() 
+	{
+		
 	}
 
 	@Test
-	public void testGetAllCarTickets() {
-		fail("Not yet implemented");
+	public void testGetAllCarTickets() 
+	{
+		
 	}
 
 }

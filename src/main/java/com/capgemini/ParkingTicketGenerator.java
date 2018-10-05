@@ -3,7 +3,6 @@ package com.capgemini;
 public class ParkingTicketGenerator 
 {
 	private int floor,section,compartment;
-	private String ticket;
 	
 	public ParkingTicketGenerator() 
 	{
@@ -18,7 +17,7 @@ public class ParkingTicketGenerator
 		this.compartment = compartment;
 	}
 
-	public int getFloor() 
+	/*public int getFloor() 
 	{
 		return floor;
 	}
@@ -31,7 +30,7 @@ public class ParkingTicketGenerator
 	public int getCompartment() 
 	{
 		return compartment;
-	}
+	}*/
 
 	public String getTicket()
 	{
